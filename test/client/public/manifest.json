@@ -1,0 +1,106 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "installation": true,
+    "locale": [
+      "es"
+    ],
+    "support": {
+      "link": "http://example.com",
+      "email": "example@example.com"
+    }
+  },
+  "locations": [
+    "lcard-1",
+    "ccard-1",
+    "comcard-1",
+    "llist-1",
+    "tlist-1",
+    "clist-1",
+    "settings",
+    "advanced_settings",
+    "card_sdk",
+    "catalogs",
+    "digital_pipeline",
+    "lead_sources",
+    "widget_page",
+    "sms",
+    "mobile_card",
+    "salesbot_designer",
+    "website_chat_button",
+    "everywhere"
+  ],
+  "settings": {
+    "text": {
+      "name": "settings.text",
+      "type": "text",
+      "required": false
+    }
+  },
+  "advanced": {
+    "title": "advanced.title"
+  },
+  "dp": {
+    "settings": {
+      "message": {
+        "name": "settings.text",
+        "type": "text",
+        "required": true
+      }
+    },
+    "action_multiple": false,
+    "webhook_url": "https://example.com/webhook_dp"
+  },
+  "left_menu": {
+    "notifications": {
+      "title": "widget.name",
+      "icon": "images/logo_min.png",
+      "sort": {
+        "after": "leads"
+      }
+    }
+  },
+  "sms": {
+    "endpoint": "https://example.com/webhook"
+  },
+  "mobile": {
+    "frame_url": "https://example.com",
+    "color": "#5F43CF"
+  },
+  "salesbot_designer": {
+    "handler_code": {
+      "name": "salesbot.handler_name",
+      "settings": {
+        "button_title": {
+          "name": "salesbot.button_title",
+          "type": "text",
+          "default_value": "salesbot.button_title_default_value",
+          "manual": true
+        },
+        "button_caption": {
+          "name": "salesbot.button_caption",
+          "type": "text",
+          "default_value": "salesbot.button_caption_default_value",
+          "manual": true
+        },
+        "text": {
+          "name": "salesbot.text",
+          "type": "text"
+        },
+        "number": {
+          "name": "salesbot.number",
+          "type": "numeric"
+        },
+        "url": {
+          "name": "salesbot.url",
+          "type": "url"
+        }
+      }
+    }
+  }
+}
