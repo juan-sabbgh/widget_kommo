@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "vendor": "Tu Nombre o Empresa",
+    "support": {
+      "link": "https://tu-sitio.com/soporte",
+      "email": "soporte@tu-sitio.com"
+    },
+    "locale": ["es", "en"],
+    "images": {
+      "logo": "images/logo.png",
+      "icon": "images/icon.png"
+    },
+    "scopes": [
+      "crm"
+    ],
+    "settings": [
+      {
+        "key": "api_key",
+        "name": "settings.api_key",
+        "type": "text"
+      },
+      {
+        "key": "webhook_url",
+        "name": "settings.webhook_url",
+        "type": "text"
+      }
+    ],
+    "locations": [
+      "lcard-1",
+      "ccard-1",
+      "cpas-1"
+    ]
+  }
+}

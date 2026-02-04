@@ -1,0 +1,11 @@
+{
+  "widget": {
+    "name": "Mi Widget",
+    "description": "Descripción completa del widget",
+    "short_description": "Descripción corta"
+  },
+  "settings": {
+    "api_key": "Clave API",
+    "webhook_url": "URL del Webhook"
+  }
+}
